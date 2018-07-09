@@ -1,0 +1,5 @@
+package com.whb.aidlremoteservice.aidl;
+
+interface BookQuery {
+	Bundle queryBookInfoById(String id);
+}
